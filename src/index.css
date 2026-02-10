@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --font-space: "Space Grotesk", sans-serif;
+}
+
+@utility dotted-bg {
+  background-image: radial-gradient(#cbd5e1 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+@utility glass-effect {
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+@utility bg-sphere-red {
+  position: absolute;
+  border-radius: 50%;
+  background-color: #ef4444; /* Tailwind Red 500 */
+  filter: blur(80px); /* Increased blur for a softer look */
+  z-index: 0; /* Behind your content */
+}
