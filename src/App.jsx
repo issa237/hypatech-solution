@@ -26,7 +26,7 @@ function App() {
       
 
       {/* Hero Section */}
-      <header className="flex flex-col items-center justify-center text-center py-32 px-5 ">
+      <header className="flex flex-col items-center justify-center text-center md:py-32 py-10 px-5 ">
       <div >
         <h2 className="text-red-600 font-bold tracking-widest uppercase mb-4 animate-fade-in">
           You Think It - We Create It

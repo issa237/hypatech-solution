@@ -3,7 +3,7 @@ export default function About() {
 
   
   return (
-    <section className="py-20 px-10 ">
+    <section className="md:py-20 py-5 md:px-10 px-0">
 
        
       <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-16">
@@ -14,7 +14,7 @@ export default function About() {
             <img 
               src="https://hypatechsolutions.com/wp-content/uploads/2023/04/innovative-business-technology.jpg" 
               alt="Innovative Business Technology" 
-              className="rounded-2xl shadow-2xl w-full h-auto object-cover"
+              className="md:rounded-2xl rounded-none shadow-2xl md:w-full w-[500px] md:h-auto h-[200px] object-cover"
               loading="lazy"
             />
             {/* Decorative red accent */}
@@ -23,7 +23,7 @@ export default function About() {
         </div>
 
         {/* Right Side: Text Content */}
-        <div className="w-full lg:w-1/2 space-y-6">
+        <div className="w-full lg:w-1/2 space-y-6 fex items-center justify-center text-center md:text-left">
           <h4 className="text-red-600 font-bold tracking-widest uppercase">
             ABOUT US
           </h4>
@@ -34,11 +34,11 @@ export default function About() {
             We believe that what unites successful companies in the new normal era is an adaptive digital heart. 
             A digital service around which businesses, competitive advantage and growth are built.
           </p>
-          <p className="text-gray-600 leading-relaxed">
+          {/* <p className="text-gray-600 leading-relaxed">
             We support you in both the day-to-day running of your business and the creation of growth. 
             We provide services for financial management, customer acquisition, brand awareness, 
             digital presence, security, business development and guidance.
-          </p>
+          </p> */}
           <button className="flex items-center gap-2 bg-red-600 text-white px-8 py-4 rounded-xl font-bold hover:bg-red-700 transition group">
             Discover More
             <span className="group-hover:translate-x-1 transition-transform">→</span>
