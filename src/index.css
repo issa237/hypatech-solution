@@ -22,3 +22,69 @@
   filter: blur(80px); /* Increased blur for a softer look */
   z-index: 0; /* Behind your content */
 }
+
+/* ... existing imports ... */
+
+/* Contact Page Utilities */
+@utility bg-grid {
+  background-image: radial-gradient(#cbd5e1 1px, transparent 1px);
+  background-size: 30px 30px;
+}
+
+@utility blob-solid {
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0.4;
+  z-index: 0;
+  filter: blur(40px);
+}
+
+/* Animation for the blobs */
+@keyframes float {
+  0% { transform: translate(0, 0); }
+  50% { transform: translate(20px, 20px); }
+  100% { transform: translate(0, 0); }
+}
+
+@utility animate-float {
+  animation: float 10s infinite ease-in-out;
+}
+
+/* About Page Specifics */
+@utility floating-orb {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(40px);
+  z-index: 0;
+  pointer-events: none;
+}
+
+/* Add to src/index.css */
+@layer utilities {
+  .perspective-1000 {
+    perspective: 1000px;
+  }
+  
+  .transform-style-3d {
+    transform-style: preserve-3d;
+  }
+}
+
+/* Custom Floating Animation & Card Styles from the new design */
+.floating-card {
+  transition: transform 0.5s ease-out;
+  box-shadow: 20px 20px 60px -10px rgba(0,0,0,0.15);
+}
+
+.floating-card:hover {
+  transform: rotateX(2deg) rotateY(-5deg) rotateZ(1deg) translateY(-5px) !important;
+}
+
+/* The specific rotations from the HTML inline styles */
+.card-rotate-1 {
+  transform: rotateX(5deg) rotateY(-10deg) rotateZ(-2deg) translateZ(50px);
+}
+
+.card-rotate-2 {
+  transform: rotateX(5deg) rotateY(-10deg) rotateZ(5deg) translateZ(80px);
+}
