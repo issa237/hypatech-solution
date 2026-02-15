@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function AboutPage() {
   return (
-    <div className="font-sans text-slate-600 bg-slate-50 relative overflow-hidden">
+    <div className="font-sans text-slate-600  relative overflow-hidden">
       
       {/* Background Grid & Orbs */}
       <div className="fixed inset-0 z-0 opacity-30 pointer-events-none" 

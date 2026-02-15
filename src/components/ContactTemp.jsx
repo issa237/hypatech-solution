@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Contact() {
   return (
-    <div className="relative min-h-screen bg-slate-50 text-slate-800 overflow-hidden font-sans">
+    <div className="relative min-h-screen  text-slate-800 overflow-hidden font-sans">
       {/* Background Elements */}
       <div className="fixed inset-0 z-0 bg-grid pointer-events-none opacity-50"></div>
       

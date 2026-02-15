@@ -1,22 +1,24 @@
+import { Link } from 'react-router-dom';
+
 export default function Features() {
   const features = [
    {
     title: "HYPA HOST",
     desc: "Lightning-fast & reliable autoscaling hosting, Unlimited SSD webspace, bandwidth, free SSL.",
     img: "https://hypatechsolutions.com/wp-content/uploads/2023/10/Hypa-Host-e1698895243520.png",
-    link: "https://hypatechsolutions.com/hypa-host-3/"
+    link: "/hypafi"
   },
   {
     title: "HYPA TEXT",
     desc: "With this solution, getting your message across to your target audience has become easier than ever.",
     img: "https://hypatechsolutions.com/wp-content/uploads/2023/10/Hypa-Text.png",
-    link: "https://hypatechsolutions.com/hypa-text/"
+    link: "/hypatext"
   },
   {
     title: "HYPA TRACK",
     desc: "Manage your fleet with ease and stop losing your valuables by tracking them from your phone.",
     img: "https://hypatechsolutions.com/wp-content/uploads/2023/10/Hypa-Track.png",
-    link: "https://hypatechsolutions.com/hypa-track/"
+    link: "/hypatrack"
   },
   {
     title: "HYPA TECH",
@@ -75,7 +77,7 @@ export default function Features() {
     </div>
               {/* <h3 className="md:text-xl text-xs font-bold mb-4">{item.title}</h3> */}
               {/* <p className="text-gray-600 md:text-sm text-[8px] leading-relaxed mb-6 font-bold">{item.desc}</p> */}
-              <a href={item.link} className="text-redS-600 md:text-xl text-xs font-bold hover:underline">Click hier &rarr;</a>
+              <Link to={item.link} className="text-redS-600 md:text-xl text-xs font-bold hover:underline">Click hier &rarr;</Link>
             </div>
           ))}
         </div>

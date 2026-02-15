@@ -10,7 +10,7 @@ export default function Navbar() {
       : "hover:text-red-600 cursor-pointer text-gray-700 transition-colors";
 
   return (
-    <nav className="sticky top-0 z-50 w-full px-4 py-4 md:px-6 md:py-6">
+    <nav className="sticky top-0 z-50 w-full px-4 py-4 md:px-6 md:py-6 ">
       
       {/* Glass Surface Container */}
       <div className="max-w-7xl mx-auto rounded-full px-6 py-3 flex justify-between items-center transition-all duration-300

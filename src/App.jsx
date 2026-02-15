@@ -8,6 +8,9 @@ import Contact from "./components/ContactTemp.jsx"; // 1. Import the Contact pag
 import AboutPage from "./components/AboutPage";
 import { Routes, Route } from "react-router-dom";
 import DashboardPreview from "./components/DashboardPreview.jsx";
+import HypaText from "./components/HypaText";
+import HypaTrack from "./components/HypaTrack";
+import HypaFi from "./components/HypaFi";
 
 function App() {
 
@@ -24,7 +27,7 @@ function App() {
       <div>
 
       {/* Hero Section */}
-      <header className="relative flex flex-col items-center justify-center text-center md:py-32 py-10 px-5">
+      <header className="relative flex flex-col items-center justify-center text-center md:py-32 py-10 px-5 h-screen">
         
         {/* --- NEW: The "White Images" Background Layer --- */}
         {/* Positioned absolutely so it doesn't move your text. Hidden on mobile. */}
@@ -35,7 +38,7 @@ function App() {
             <div className="relative w-full max-w-md transform rotate-[-6deg] translate-x-12 opacity-90">
               
               {/* Card 1: Main White Card (Behind) */}
-              <div className="absolute top-0 right-10 bg-white p-6 rounded-2xl shadow-2xl border border-gray-100 w-80 h-96 z-10 transform translate-y-8">
+              <div className="absolute top-0 right-10 bg-white p-6 rounded-2xl shadow-xl border border-gray-100 w-80 h-96 z-10 transform translate-y-8">
                  {/* Fake UI Elements */}
                  <div className="h-4 w-24 bg-gray-100 rounded mb-6"></div>
                  <div className="space-y-4">
@@ -48,7 +51,7 @@ function App() {
               {/* Card 2: Floating Action Card (Front) */}
               <div className="absolute top-20 right-40 bg-white p-5 rounded-2xl shadow-[0_20px_50px_rgba(0,0,0,0.15)] border border-gray-50 w-64 z-20 transform -rotate-12 hover:rotate-0 transition-transform duration-500">
                 <div className="flex items-center gap-3 mb-4">
-                  <div className="w-10 h-10 rounded-full bg-red-100 flex items-center justify-center text-red-600 font-bold">H</div>
+                  <div className="w-10 h-10 rounded-full bg-red-100 flex items-center justify-center text-black font-bold">H</div>
                   <div>
                     <div className="h-2 w-20 bg-gray-200 rounded mb-1"></div>
                     <div className="h-2 w-10 bg-gray-100 rounded"></div>
@@ -111,13 +114,16 @@ function App() {
         />
       ))}
       {/* Navbar stays outside Routes so it appears on all pages */}
-      <Navbar />
+      <Navbar/>
 
       {/* 3. Routing Logic */}
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<AboutPage />}/>
+        <Route path="/hypatext" element={<HypaText />} />
+        <Route path="/hypatrack" element={<HypaTrack />} />
+        <Route path="/hypafi" element={<HypaFi />} />
       </Routes>
 
       {/* Footer stays outside Routes so it appears on all pages */}
