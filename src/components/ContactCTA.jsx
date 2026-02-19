@@ -1,7 +1,7 @@
 export default function ContactCTA() {
   return (
-    <section className="py-20 px-10 bg-red-600 text-white overflow-hidden">
-      <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-between gap-12">
+    <section className="py-20 px-10 bg-red-600  text-white overflow-hidden ">
+      <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-between gap-12 ">
         
         {/* Left Side: Text Content */}
         <div className="w-full lg:w-3/5 space-y-6">
@@ -16,7 +16,7 @@ export default function ContactCTA() {
             and growth to reduce losses and increase productivity.
           </p>
           <a 
-            href="https://hypatechsolutions.com/contact/" 
+            href="/about" 
             className="inline-flex items-center gap-2 bg-white text-red-600 px-8 py-4 rounded-xl font-bold text-lg hover:bg-gray-100 transition shadow-lg"
           >
             Contact us

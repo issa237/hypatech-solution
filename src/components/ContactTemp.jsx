@@ -13,8 +13,8 @@ export default function Contact() {
       
       <main className="relative z-10 max-w-7xl mx-auto px-6 pt-12 pb-24">
         {/* Header Section */}
-        <div className="text-center mb-16">
-          <h1 className="text-5xl md:text-6xl font-bold text-red-600 mb-4 tracking-tight">Get in Touch</h1>
+        <div className="text-center mb-16 my-50">
+          <h1 className="text-5xl md:text-6xl font-bold  mb-4 tracking-tight">Get in <span className="text-red-600">Touch</span> </h1>
           <p className="text-slate-600 text-lg max-w-2xl mx-auto">
             Have a project in mind or want to learn more about our services? We're here to help you transform your ideas into reality.
           </p>

@@ -39,10 +39,10 @@ export default function About() {
             We provide services for financial management, customer acquisition, brand awareness, 
             digital presence, security, business development and guidance.
           </p> */}
-          <button className="flex items-center gap-2 bg-red-600 text-white px-8 py-4 rounded-xl font-bold hover:bg-red-700 transition group">
+          <a href="/about" className="flex items-center gap-2 bg-red-600 text-white px-8 py-4 rounded-xl font-bold hover:bg-red-700 transition group max-w-fit">
             Discover More
             <span className="group-hover:translate-x-1 transition-transform">→</span>
-          </button>
+          </a>
         </div>
 
       </div>

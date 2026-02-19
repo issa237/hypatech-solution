@@ -7,7 +7,7 @@ export default function HypaTrack() {
       <div className="max-w-7xl mx-auto space-y-8">
         
         {/* HEADER SECTION */}
-        <div className="text-center md:text-left mb-8">
+        <div className="relative flex flex-col items-center justify-center text-center md:py-40 py-10 px-5">
           <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight text-slate-900 mb-4">
             Hypa<span className="text-red-600">Track</span>
           </h1>

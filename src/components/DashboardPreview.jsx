@@ -5,20 +5,20 @@ export default function DashboardPreview() {
     <div className="w-full max-w-7xl mx-auto px-6 py-12 relative z-10">
       
       {/* 1. HEADER SECTION */}
-      <header className="mb-12 space-y-6 text-center md:text-left">
-        <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-slate-900">
+      <header className="relative flex flex-col items-center justify-center text-center md:py-20 py-10 px-5">
+        <h1 className=" my-6 text-4xl md:text-5xl font-extrabold tracking-tight text-slate-900">
           Build your digital ecosystem
         </h1>
-        <p className="text-lg text-slate-600 max-w-2xl">
+        <p className=" text-lg text-slate-600 max-w-2xl mb-6">
           A set of beautifully-designed, accessible components and a code distribution platform. Works with your favorite frameworks. Open Source. Open Code.
         </p>
         <div className="flex flex-wrap gap-4 justify-center md:justify-start">
           <button className="bg-red-600 hover:bg-red-700 text-white px-6 py-2.5 rounded-full font-medium transition-colors shadow-lg shadow-red-500/25">
             Get Started
           </button>
-          <button className="bg-white/50 backdrop-blur-sm border border-slate-300 hover:bg-white text-slate-900 px-6 py-2.5 rounded-full font-medium transition-colors">
+          {/* <button className="bg-white/50 backdrop-blur-sm border border-slate-300 hover:bg-white text-slate-900 px-6 py-2.5 rounded-full font-medium transition-colors">
             Browse Components
-          </button>
+          </button> */}
         </div>
       </header>
 

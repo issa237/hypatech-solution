@@ -11,6 +11,8 @@ import DashboardPreview from "./components/DashboardPreview.jsx";
 import HypaText from "./components/HypaText";
 import HypaTrack from "./components/HypaTrack";
 import HypaFi from "./components/HypaFi";
+import Targetin from "./components/targetin.jsx";
+import Kompania from "./components/Kompania";
 
 function App() {
 
@@ -124,6 +126,8 @@ function App() {
         <Route path="/hypatext" element={<HypaText />} />
         <Route path="/hypatrack" element={<HypaTrack />} />
         <Route path="/hypafi" element={<HypaFi />} />
+        <Route path="/targetin" element={<Targetin />} />
+        <Route path="/kompania" element={<Kompania />} />
       </Routes>
 
       {/* Footer stays outside Routes so it appears on all pages */}

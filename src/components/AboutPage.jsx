@@ -18,7 +18,7 @@ export default function AboutPage() {
       <main className="relative z-10 container mx-auto px-6 py-20 space-y-32">
         
         {/* Header Section */}
-        <section className="text-center max-w-4xl mx-auto">
+        <section className="text-center max-w-4xl mx-auto my-20">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-red-100 text-red-600 text-xs font-semibold uppercase tracking-wider mb-6">
             <span className="w-2 h-2 rounded-full bg-red-600"></span>
             Since 2018

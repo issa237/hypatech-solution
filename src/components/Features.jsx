@@ -21,16 +21,16 @@ export default function Features() {
     link: "/hypatrack"
   },
   {
-    title: "HYPA TECH",
+    title: "Targetin",
     desc: "Cloud-based lead generation enabling businesses to gather info by offering free Wi-Fi.",
     img: "https://hypatechsolutions.com/wp-content/uploads/2023/10/Hypa-Tech.png",
-    link: "https://hypatechsolutions.com/hypa-tech/"
+    link: "/targetin"
   },
     {
     title: "HYPA HOST",
     desc: "Lightning-fast & reliable autoscaling hosting, Unlimited SSD webspace, bandwidth, free SSL.",
     img: "https://hypatechsolutions.com/wp-content/uploads/2023/10/Hypa-Host-e1698895243520.png",
-    link: "https://hypatechsolutions.com/hypa-host-3/"
+    link: "/kompania"
   },
   {
     title: "HYPA TEXT",
@@ -62,8 +62,8 @@ export default function Features() {
 
 
       <div className="max-w-7xl mx-auto md:px-10 px-5 text-center">
-        <h4 className="text-redS-600 font-bold tracking-widest uppercase mb-2">Our Services</h4>
-        <h2 className="text-4xl font-extrabold text-gray-900 mb-12">The solutions we provide</h2>
+        <h4 className="text-redS-600 font-bold tracking-widest uppercase mb-2 text-red-600">Our Services</h4>
+        <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 mb-12">Solutions we provide</h2>
         
         <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 md:gap-8 gap-4">
           {features.map((item, index) => (
