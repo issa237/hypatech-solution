@@ -37,7 +37,7 @@ function App() {
           
           {/* Container pushing images to the right (Location as on image) */}
           <div className="absolute right-0 top-1/2 -translate-y-1/2 w-1/2 h-full flex items-center justify-center perspective-1000">
-            <div className="relative w-full max-w-md transform rotate-[-6deg] translate-x-12 opacity-90">
+            <div className="relative w-full max-w-md transform -rotate-6 translate-x-12 opacity-90">
               
               {/* Card 1: Main White Card (Behind) */}
               <div className="absolute top-0 right-10 bg-white p-6 rounded-2xl shadow-xl border border-gray-100 w-80 h-96 z-10 transform translate-y-8">
@@ -106,7 +106,7 @@ function App() {
   );
 
   return (
-   <div className="dotted-bg relative overflow-hidden ">
+   <div className="dotted-bg relative overflow-clip">
       {/* Background Spheres */}
       {spheres.map((s, i) => (
         <div 

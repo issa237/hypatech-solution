@@ -204,7 +204,7 @@ export default function DashboardPreview() {
         </div>
 
         {/* CARD 7: EXERCISE MINUTES (Span 2) - NEW */}
-        <div className="col-span-1 md:col-span-2 bg-white/60 backdrop-blur-md border border-white/50 rounded-2xl p-6 shadow-xl hover:border-red-300 transition-colors relative overflow-hidden">
+        {/* <div className="col-span-1 md:col-span-2 bg-white/60 backdrop-blur-md border border-white/50 rounded-2xl p-6 shadow-xl hover:border-red-300 transition-colors relative overflow-hidden">
           <div className="relative z-10">
             <h3 className="text-sm font-bold text-slate-900">Exercise Minutes</h3>
             <p className="text-xs text-slate-500 mt-1 mb-4">Your exercise minutes are ahead of where you normally are.</p>
@@ -223,7 +223,7 @@ export default function DashboardPreview() {
               <circle className="fill-red-600" cx="200" cy="40" r="3"></circle>
             </svg>
           </div>
-        </div>
+        </div> */}
 
       </div>
     </div>
