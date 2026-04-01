@@ -5,9 +5,9 @@ export default function AboutPage() {
     <div className="font-sans text-slate-600  relative overflow-hidden">
       
       {/* Background Grid & Orbs */}
-      <div className="fixed inset-0 z-0 opacity-30 pointer-events-none" 
+      {/* <div className="fixed inset-0 z-0 opacity-30 pointer-events-none" 
            style={{ backgroundImage: 'radial-gradient(#cbd5e1 1.5px, transparent 1.5px)', backgroundSize: '24px 24px' }}>
-      </div>
+      </div> */}
       
       <div className="fixed top-0 left-0 w-full h-full overflow-hidden pointer-events-none z-0">
         <div className="floating-orb w-96 h-96 -top-20 -left-20 bg-red-500/20"></div>

@@ -29,8 +29,6 @@ export default function Footer() {
             <li className="hover:text-red-400 cursor-pointer">Home</li>
             <li className="hover:text-red-400 cursor-pointer">About HypaTech</li>
             <li className="hover:text-red-400 cursor-pointer">Services</li>
-            <li className="hover:text-red-400 cursor-pointer">Careers</li>
-            <li className="hover:text-red-400 cursor-pointer">References</li>
             <li className="hover:text-red-400 cursor-pointer">Contact</li>
           </ul>
         </div>
@@ -43,6 +41,7 @@ export default function Footer() {
             <li className="hover:text-red-400 cursor-pointer">Hypa Text</li>
             <li className="hover:text-red-400 cursor-pointer">Hypa Track</li>
             <li className="hover:text-red-400 cursor-pointer">Hypa Tech</li>
+            <li className="hover:text-red-400 cursor-pointer">Hypa Fi</li>
           </ul>
         </div>
 

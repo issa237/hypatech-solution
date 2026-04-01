@@ -5,10 +5,10 @@ export default function HypaText() {
     <div className="min-h-screen  p-4 md:p-8 font-sans text-slate-800">
       
       <div className="max-w-7xl mx-auto space-y-8">
-        
+       
         {/* HEADER / HERO SECTION */}
-        <div className="relative flex flex-col items-center justify-center text-center md:py-40 py-10 px-5">
-          <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight text-slate-900 mb-4">
+        <div className=" h-125 relative flex flex-col items-center justify-center text-center px-5">
+          <h1 className="text-6xl md:text-9xl font-extrabold tracking-tight text-slate-900 mb-4">
             Hypa<span className="text-red-600">Text</span>
           </h1>
           <p className="text-xl text-slate-500 max-w-2xl">

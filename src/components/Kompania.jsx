@@ -5,10 +5,10 @@ export default function Kompania() {
     <div className="min-h-screen  p-4 md:p-8 font-sans text-slate-800">
       
       <div className="max-w-7xl mx-auto space-y-8">
-        
+       
         {/* HEADER SECTION */}
-        <div className="relative flex flex-col items-center justify-center text-center md:py-50 py-10 px-5">
-          <h1 className="text-5xl md:text-7xl font-extrabold text-gray-900 max-w-4xl leading-tight mb-4">
+        <div className="h-125relative flex flex-col items-center justify-center text-center md:py-50 py-10 px-5">
+          <h1 className="text-5xl md:text-9xl font-extrabold text-gray-900 max-w-4xl leading-tight mb-4">
             Kompania
           </h1>
           <p className="text-xl text-red-600 max-w-2xl">

@@ -4,7 +4,7 @@ export default function Contact() {
   return (
     <div className="relative min-h-screen  text-slate-800 overflow-hidden font-sans">
       {/* Background Elements */}
-      <div className="fixed inset-0 z-0 bg-grid pointer-events-none opacity-50"></div>
+      {/* <div className="fixed inset-0 z-0 bg-grid pointer-events-none opacity-50"></div> */}
       
       {/* Animated Blobs (Red Themed) */}
       <div className="blob-solid bg-red-600 w-96 h-96 -top-20 -right-20 mix-blend-multiply blur-3xl animate-float"></div>

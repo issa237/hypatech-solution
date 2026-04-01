@@ -13,6 +13,7 @@ import HypaTrack from "./components/HypaTrack";
 import HypaFi from "./components/HypaFi";
 import Targetin from "./components/targetin.jsx";
 import Kompania from "./components/Kompania";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
 
@@ -115,6 +116,8 @@ function App() {
           style={{ top: s.top, left: s.left }}
         />
       ))}
+      {/* Additional Decorative Orbs */}
+      <ScrollToTop />
       {/* Navbar stays outside Routes so it appears on all pages */}
       <Navbar/>
 
